@@ -12,5 +12,10 @@ An example can be financial time series. In Chapter 3.2 of the aforementioned pa
 
 ## A case difference is made for known and unknown standard deviations of the two random variables.
 
-This can be used when the supposed limits are known.
+This can be used when the supposed limits of the standard deviations are known and not diverging.
 
+
+## Diffusive processes
+
+In the original paper diffusive processes where used. Those can have have different realisations which is why I^i and J^j are not the same process. Thus when using the 
+estimator with fixed data (like as stock time series) which only has one realization (the past performace) the random interval I^i = J^j.
